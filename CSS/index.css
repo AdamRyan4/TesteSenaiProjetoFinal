@@ -1,0 +1,32 @@
+
+body {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+/*no menu vertivar colocar  width: 200px; na ul e np horizontal tirar*/
+ul {
+    margin:0;padding:0;
+                }
+
+                /*no menu horizontal usar display: inline-block na tag li no menu vertival usar o display block na tag li a*/
+li {
+    list-style:none;
+    display: inline-block;
+    }
+
+li a {
+    text-decoration:none;
+    color:#FFF;
+    background-color:#09C;
+
+    margin-bottom: 1px;
+    /* aumentando altura e a distancia da palavra dentro da caixa*/
+    padding:5px 15px;
+    /* deixando as caxinhas mais proximas*/
+    margin-left: -2px;
+}
+
+li a:hover {
+    background-color:#6CF
+}
